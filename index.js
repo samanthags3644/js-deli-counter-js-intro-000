@@ -15,7 +15,9 @@ function currentLine(line){
     return "The line is currently empty.";
   }
   const numbersAndNames = [];
-  // ["1. Ada", "2. Grace", "3. Alan"]
+  // line => ["Ada", "Grace", "Alan"]
+  // We're getting to 
+  // numbersAndNames => ["1. Ada", "2. Grace", "3. Alan"]
   // "The line is currently: 1. Ada, 2. Grace, 3. Alan"
   for(var i = 0; i < line.length ; i++){
     // Every element inside of line, we want to create a statement
