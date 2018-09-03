@@ -22,10 +22,12 @@ function currentLine(line){
   for(var i = 0; i < line.length ; i++){
     // Every element inside of line, we want to create a statement
     // that has their position in the line and their name
-    numbersAndNames.push(i + 1)
+    numbersAndNames.push(`${i+1}. ${line[i]}`);
     return `The line is currently: ${line.shift()}`
   }
 }
 
-
+// line[0] => "Ada"
+// line[1] => "Grace"
+// line[2] => "Alan"
 
