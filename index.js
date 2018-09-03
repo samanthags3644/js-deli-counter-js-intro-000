@@ -17,5 +17,9 @@ function currentLine(line){
   const numbersAndNames = [];
   // ["1. Ada", "2. Grace", "3. Alan"]
   // "The line is currently: 1. Ada, 2. Grace, 3. Alan"
-  for(var i = 0; ;)
+  for(var i = 0; i < line.length ; i++){
+    // Every element inside of line, we want to create a statement
+    // that has their position in the line and their name
+    return `The line is currently ${line.shift()}`
+  }
 }
