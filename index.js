@@ -23,8 +23,8 @@ function currentLine(line){
     // Every element inside of line, we want to create a statement
     // that has their position in the line and their name
     numbersAndNames.push(`${i+1}. ${line[i]}`);
-    return `The line is currently: ${line.shift()}`
   }
+  return `The line is currently: ${numbersAndNames.join(', ')}`
 }
 
 // line[0] => "Ada"
