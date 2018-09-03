@@ -17,5 +17,5 @@ function currentLine(line){
   const numbersAndNames = [];
   // ["1. Ada", "2. Grace", "3. Alan"]
   // "The line is currently: 1. Ada, 2. Grace, 3. Alan"
-  for(;;)
+  for(var i = 0; ;)
 }
