@@ -20,7 +20,7 @@ function currentLine(line){
   for(var i = 0; i < line.length ; i++){
     // Every element inside of line, we want to create a statement
     // that has their position in the line and their name
-    
+    numbersAndNames.push(name)
     return `The line is currently: ${line.shift()}`
   }
 }
